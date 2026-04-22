@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piensa Labs &middot; A read on the AI-plus-geospatial stack</title>
+<meta name="description" content="Ariel's Billion Object Platform work at Harvard and his GeoNode contributions are why I walked up. I have a hypothesis about where the geospatial-plus-agent-orchestration layer is heading.">
+<link href="https://fonts.googleapis.com/css?family=Asap:400,400i,700|Montserrat:200,400,400i,600,700,800" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="logo" href="https://piensa.co/" target="_blank" rel="noopener">
+      <img src="logo.svg" alt="Piensa Labs">
+    </a>
+    <span class="nav-note">For the Piensa team &middot; eMerge Americas 2026 &middot; Booth SS47</span>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Prepared for Piensa Labs</p>
+      <h1>A read on where Piensa Labs sits in the AI-plus-geospatial stack, from someone who thinks you are in the right place at the wrong moment.</h1>
+      <p class="lede">Piensa Labs built the Billion Object Platform for Harvard, ships GeoNode code into 24-plus country programs through OpenDRI, and keeps a six-person team of geospatial engineers, ML specialists, and a frontend developer who paints in oil. That is a rare combination. It is also quiet on the public surface right now, which is probably a choice, and probably costing you meetings. This page is a short read on how Eduba would think about the moment you are in.</p>
+    </div>
+  </section>
+
+  <section class="quote-band">
+    <div class="wrap">
+      <p class="pull">&ldquo;Piensa has the technical substrate. Eduba has the orchestration layer. The right move is a partnership.&rdquo;</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <h2>The frame</h2>
+      <p>Our working view is that most teams automate the wrong layer. Roughly 60 percent of any given problem is traditional code, about 30 percent is rule-based logic, and the last 10 percent is where real AI earns its cost. Spatial ML work is interesting because it does not fit that split cleanly. GeoNode, PostGIS, and tile caches are the 60 percent. Classical ML on spatial features is the 30 percent. And the new 10 percent, the part where orchestration and agents actually matter, is the part the market is loudest about and most confused by. Piensa already knows the first two layers cold. The open question is how to fold the third in without losing the engineering discipline that defines the first two.</p>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="wrap">
+      <h2>Where we would come in</h2>
+      <p>Eduba designs the orchestration layer that sits on top of existing stacks. Interpretable Context Methodology (ICM) gives a small team a reproducible way to structure agent context, audit decisions, and ship interpretable systems. The two skills are complementary. A recent scoped sprint with Feeld's CTO delivered a workshop, an Organizational Context Architecture, and a Strategic Operations Framework to a product company with a technical buyer. That shape of engagement is the kind a Piensa-plus-Eduba pair could co-deliver on a mutual client: Eduba designs the orchestration and context layer, Piensa builds the geospatial and ML substrate.</p>
+    </div>
+  </section>
+
+  <section class="pillars">
+    <div class="wrap">
+      <h2 class="pillars-title">Pillars that support our actions</h2>
+      <div class="pillars-grid">
+        <div class="pillar">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="6" width="36" height="36" rx="2" fill="none" stroke="#FF6D00" stroke-width="2"/><path d="M6 18 L42 18 M6 30 L42 30 M18 6 L18 42 M30 6 L30 42" stroke="#FF6D00" stroke-width="1.5"/><circle cx="24" cy="24" r="3" fill="#FF6D00"/></svg>
+          </div>
+          <h3>Right layer, right tool</h3>
+          <p>Decide which layer each piece of a problem belongs on: AI, traditional code, rule-based logic, human judgment, or "don't build it at all." Most teams pick the loudest layer. That costs money.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M10 38 L10 10 L38 10" fill="none" stroke="#FF6D00" stroke-width="2"/><rect x="14" y="16" width="8" height="8" fill="#FF6D00"/><rect x="26" y="16" width="8" height="8" fill="none" stroke="#FF6D00" stroke-width="2"/><rect x="14" y="28" width="8" height="8" fill="none" stroke="#FF6D00" stroke-width="2"/><rect x="26" y="28" width="8" height="8" fill="#FF6D00"/></svg>
+          </div>
+          <h3>Open by default</h3>
+          <p>ICM is MIT-licensed on GitHub and submitted to ACM TiiS. Folder-structured agent architecture, published openly. The register Piensa already publishes in.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="20" r="5" fill="none" stroke="#FF6D00" stroke-width="2"/><circle cx="32" cy="20" r="5" fill="none" stroke="#FF6D00" stroke-width="2"/><circle cx="24" cy="34" r="5" fill="#FF6D00"/><path d="M16 25 L24 34 M32 25 L24 34 M21 20 L27 20" stroke="#FF6D00" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Partners, not silos</h3>
+          <p>A small principal shop that holds the methodology, with delivery partners who bring depth in their own verticals. Piensa would fit that pattern on the geospatial side.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <h2>The ecosystem piece</h2>
+      <p>Eduba partners with NLP Logix for work that sits below the orchestration layer. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists. The pattern is the point: a small principal shop that keeps the methodology, with delivery partners who bring depth in their own verticals. Piensa would fit that pattern on the geospatial side.</p>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="wrap">
+      <h2>The paper</h2>
+      <p><a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">Interpretable Context Methodology</a>. MIT-licensed. Submitted to ACM TiiS. Folder-structured agent architecture, published openly, which is the register Piensa already publishes in.</p>
+      <p class="fine">Related: the <a href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">Ethics Engine</a> (<a href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">AuditEngine</a>), a psychometric assessment tool for evaluating ideological and moral patterns in LLMs. Relevant when a mutual client wants interpretability alongside spatial ML.</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap cta-inner">
+      <div class="cta-copy">
+        <h2>Thirty minutes with Matt</h2>
+        <p>Matt Creamer leads commercial for Eduba. Bring one project that looks right for co-delivery, or one prospect where a Piensa-plus-Eduba pairing would shorten a sales cycle. We will do the work from there.</p>
+      </div>
+      <div class="cta-action">
+        <a class="btn" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Book 30 minutes with Matt</a>
+        <p class="cta-fine">Our colleague Jake Van Clief (Marine Corps veteran, MSc Future Governance, University of Edinburgh, ICM author) joins the follow-up call for the technical conversation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="context">
+    <div class="wrap">
+      <h2>A note on fit</h2>
+      <p>Piensa Labs is not a training buyer in the usual sense. You are six people who built the Billion Object Platform for Harvard and who ship into OpenDRI programs in 24-plus countries. A workforce-training pitch would miss. A partnership conversation is closer to the work.</p>
+      <p class="fine">Eduba has trained 1,500+ people at enterprise clients like Pacific Life and Colgate-Palmolive since May 2025, and 40+ executives at KPMG UK, one of the Big Four. Those are reference credentials, not the pitch for Piensa.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <p>Prepared by Eduba &middot; <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a></p>
+    <p class="foot-fine">Matt Creamer, CRO &middot; <a href="mailto:thecro@eduba.io">thecro@eduba.io</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
